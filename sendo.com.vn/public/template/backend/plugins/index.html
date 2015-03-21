@@ -1,0 +1,29 @@
+<!-- include the CKFinder integration file -->
+<script type="text/javascript" src="kcfinder/ckfinder_v1.js"></script>
+...
+<script type="text/javascript">
+function BrowseServer( inputId )
+{
+	var finder = new CKFinder() ;
+	finder.BasePath = '/ckfinder/' ;
+	finder.SelectFunction = SetFileField ;
+	finder.SelectFunctionData = inputId ;
+	finder.Popup() ;
+}
+ 
+function SetFileField( fileUrl, data )
+{
+	document.getElementById( data["selectFunctionData"] ).value = fileUrl ;
+}
+</script>
+...
+<p>
+	<strong>Selected File URL</strong><br/>
+	<input id="xFilePath" name="FilePath" type="text" size="60" />
+	<input type="button" value="Browse Server" onclick="BrowseServer( 'xFilePath' );" />
+</p>
+<p>
+	<strong>Selected Image URL</strong><br/>
+	<input id="xImagePath" name="ImagePath" type="text" size="60" />
+	<input type="button" value="Browse Server" onclick="BrowseServer( 'xImagePath' );" />
+</p>

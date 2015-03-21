@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Danh sách bai viết</title>
+<meta name="keywords" content = " "/>	
+<meta name="description" content = ""/>
+<base href="<?php echo ITQ_BASE_URL;?>"/>
+<link rel="stylesheet" href="css/normalize.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+</head>
+<body>
+﻿<section class="itq-wrapper">
+	<header class="itq-header"><p>Hệ thống quản trị website</p></header>
+	<nav class="navigation">
+			<ul class="main">
+				<li class="main"><a class="main" href="#">Hệ thống</a>
+					<ul class="item">
+						<li class="item"><a class="item" href="#">Cấu hình</a>
+							<ul class="sub">
+								<li class="sub"><a class="sub" href="#">Trang quản trị</a></li>
+								<li class="sub"><a class="sub" href="#">Trang chủ</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="main"><a class="main" href="#">Module</a>
+					<ul class="item">
+						<li class="item"><a class="item" href="#">Quảng cáo</a></li>
+						<li class="item"><a class="item" href="#">Hỗ trợ trực tuyến</a></li>
+						<li class="item"><a class="item" href="#">Từ khóa</a></li>
+						<li class="item"><a class="item" href="#">Phản hồi</a></li>
+					</ul>
+				</li>
+				<li class="main"><a class="main" href="#">Bài viết</a>
+					<ul class="item">
+						<li class="item"><a class="item" href="#">Danh mục</a></li>
+						<li class="item"><a class="item" href="#">Bài viết</a></li>
+					</ul>
+				</li>
+				<li class="main"><a class="main" href="#">Phản hồi</a></li>
+			</ul>
+			<ul class="user-account">
+				<li>Chào <strong>Lương Mạnh Đoàn</strong></li>
+				<li><a href="#">Thông tin</a></li>
+				<li><a href="#">Đăng xuất</a></li>
+			</ul>
+	</nav>
+	<section class="itq-tab">
+		<h1>Danh sách bài viết</h1>
+		<ul>
+			<li class="active"><a href="#">Danh mục bài viết</a></li>
+			<li><a href="#">Danh sách bài viết</a></li>
+		</ul>
+	</section>
+	<section class="itq-view">
+		<section class="advanced">
+			<section class="search">
+				<form method="post" action="">
+					<select name="category">
+						<option value="">-Danh mục sản phẩm-</option>
+					</select>
+					<input type="text" name="keyword" class="text" value=""/>
+					<input type="submit" class="submit" value="Tìm kiếm"/>	
+				</form>
+			</section><!--search-->
+			<section class="tool">
+				<form method="post" action="">
+					<input type="button"  value="Thêm mới"/>
+					<input type="button"  value="Xóa nhiều"/>
+					<input type="button"  value="Hiển thị"/>
+					<input type="button"  value="Sắp xếp"/>	
+				</form>
+			</section><!--tool-->
+		</section><!--.advanced-->
+		﻿<section class="table">
+			<table cellpadding="0" cellspacing="0" class="main">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th><input type="checkbox" id="view-checkall"/></th>
+						<th><a class="a-color" href="#">Tên bài viết <img src="images/desc.png" alt="desc" width="" height=""></a></th>
+						<th><a class="a-color" href="#">Ngày tạo<img src="images/asc.png" alt="desc"/></a></th>
+						<th><a class="a-color" href="#">Ngày sửa</a></th>
+						<th><a class="a-color" href="#">Người tạo</a></th>
+						<th><a class="a-color" href="#">Người sửa</a></th>
+						<th><a class="a-color" href="#">Lượt xem</a></th>
+						<th><a class="a-color" href="#">Vị trí</a></th>
+						<th><a class="a-color" href="#">Hiển thị</a></th>
+						<th><a class="a-color" href="#">Thao tác</a></th>
+						<th><a class="a-color" href="#">Mã</a></th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<td>#</td>
+						<td class="center"><input type="checkbox" id="view-checkall"/></td>
+						<td class="left"><a href="">Các tân binh kiếm bộn tiền bán áo cho các đại gia Premier League</td>
+						<td>25/9/2014</td>
+						<td>25/9/2014</td>
+						<td><a href="#">admin</td>
+						<td>-</td>
+						<td>12</td>
+						<td><input type="input" name="" value="0" class="order"/></td>
+						<td><a href=""><img src="images/check.png" alt="check" /></a></td>
+						<td><a href=""><img src="images/delete.png" alt="delete" class="delete"/></a><a href=""><img src="images/edit.png" alt="check" class="edit"/></a></td>
+						<td class="last"><a href="">1</a></td>
+					</tr>
+					<tr>
+						<td>#</td>
+						<td class="center"><input type="checkbox" id="view-checkall"/></td>
+						<td class="left"><a href="">Quản lý chặt chẽ cấp phát chứng chỉ ngoại ngữ</td>
+						<td>25/9/2014</td>
+						<td>25/9/2014</td>
+						<td><a href="#">admin</td>
+						<td>-</td>
+						<td>12</td>
+						<td><input type="input" name="" value="0" class="order"/></td>
+						<td><a href=""><img src="images/check.png" alt="check" /></a></td>
+						<td><a href=""><img src="images/delete.png" alt="delete" class="delete"/></a><a href=""><img src="images/edit.png" alt="check" class="edit"/></a></td>
+						<td class="last"><a href="">1</a></td>
+					</tr>
+					<tr>
+						<td>#</td>
+						<td class="center"><input type="checkbox" id="view-checkall"/></td>
+						<td class="left"><a href="">Quản lý chặt chẽ cấp phát chứng chỉ ngoại ngữ</td>
+						<td>25/9/2014</td>
+						<td>25/9/2014</td>
+						<td><a href="#">admin</td>
+						<td>-</td>
+						<td>12</td>
+						<td><input type="input" name="" value="0" class="order"/></td>
+						<td><a href=""><img src="images/check.png" alt="check" /></a></td>
+						<td><a href=""><img src="images/delete.png" alt="delete" class="delete"/></a><a href=""><img src="images/edit.png" alt="check" class="edit"/></a></td>
+						<td class="last"><a href="">1</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</section><!--.itq-table-->
+		
+	<section class="pagination">
+		<ul>
+			<li><a href="">Trang đầu</a></li>
+			<li><a href="">Lùi lại</a></li>
+			<li><a href="">2</a></li>
+			<li><a href="">3</a></li>
+			<li><a href="">4</a></li>
+			<li><a href="">5</a></li>
+			<li><a href="">6</a></li>
+			<li><a href="">7</a></li>
+			<li><a href="">8</a></li>
+			<li><a href="">Tiếp tục</a></li>
+			<li><a href="">Trang cuối</a></li>
+		</ul>
+	</section><!--.itq-wraper-->
+	</section><!--.itq-view-->
+	
+	</section><!--.itq-wraper-->
+	<footer><p>copyright &copy; powered by <a href="#" title="">FSoft</a></p></footer>
+</body>
+</html>

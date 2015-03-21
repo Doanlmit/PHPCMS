@@ -1,0 +1,15 @@
+a:link,a:active{
+    color: #025A8D;
+    text-decoration: none;}
+a:visited {
+    color: #000;}
+a:hover {
+    color: #025A8D;
+    text-decoration: underline;}
+body{
+    font-family: Arial;
+    font-size: 13px;
+    padding: 5px;
+    color:#000;	
+    background: url("../images/custom_bg.png");
+}

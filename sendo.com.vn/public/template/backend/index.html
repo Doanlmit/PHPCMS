@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Đăng nhập vào hệ thống</title>
+<meta name="keywords" content = " "/>	
+<meta name="description" content = ""/>
+<base href="<?php echo ITQ_BASE_URL;?>"/>
+<link rel="stylesheet" href="css/normalize.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/login.css" type="text/css" media="all" />
+</head>
+<body>
+	﻿<section class="vts-wrapper">
+		<form>
+		  <fieldset>
+			<legend>Đăng nhập hệ thống:</legend>
+			<ul class="error">
+				<li>Bạn không được để trống</li>
+				<li>Bạn không được để trống</li>
+			</ul>
+			<label><p>Tên sử dụng:</p><input type="text" name="data[username]" value="" class="txtUsername"></label>
+			<label><p>Mật khẩu:</p><input type="password" name="data[password]" value="" class="txtPassword"></label>
+			<section><input type="submit" name="login" value="Đăng nhập" class="btnLogin"/><input type="reset" name="reset" value="Đặt lại" class=""/>
+			</section>
+			<nav>
+				<ul>
+					<li><a href="#" title="Về trang chủ">Về trang chủ</a></li>
+					<li>/</li>
+					<li><a href="#">Quên mật khẩu</a></li>
+				</ul>
+			</nav>
+		  </fieldset>
+		</form>
+	</section><!--.vts-wraper-->
+	<footer><p>copyright &copy; powered by <a href="#" title="">VIETTELL SOFTWARE</a></p></footer>
+</body>
+</html>
